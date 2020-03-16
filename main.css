@@ -274,6 +274,10 @@ li{
 .fa-dribble-square:hover{
   color: #ea4c89
 }
+
+.self{
+  border-radius: 100%;
+}
 /* end about */
 
 
@@ -311,7 +315,7 @@ li{
   transform: rotate(45deg)
 };
 
-.icon-container{
+.icon-container i{
   color: #ffe838;
   font-size: 5rem;
   margin: auto;
@@ -337,8 +341,8 @@ li{
   flex: 1;
 }
 
-.portfolio-description{
-}
+/* .portfolio-description{
+} */
 
 .portfolio-description h1{
   font-size: 3rem;
@@ -429,6 +433,62 @@ li{
   background-color: #313534;
 }
 /* end timeline */
+
+
+/* start education */
+
+.education-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.education-item:last-child{
+  margin-bottom: 0;
+}
+
+.profile-img{
+  width: 50rem;
+  flex: 1;
+}
+
+/* .education-description{
+} */
+
+.education-description h1{
+  font-size: 3rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+.education-description h6{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  opacity: 0.3;
+}
+
+.education-description .cta{
+  display: inline-block;
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #3883ff;
+  transition: color 650ms;
+}
+
+.education-description .cta:hover{
+  color: #2f67cd;
+}
+/* end education */
+
+
+/* start certificates */
+
+
+
+/* end certificates */
 
 
 /* start contact */
